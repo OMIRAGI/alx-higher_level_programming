@@ -1,5 +1,3 @@
 #!/usr/bin/python3
-def weight_average(my_list=[]):
-    if my_list:
-        return (sum([a * b for a, b in my_list])/sum(b for a, b in my_list))
-    return 
+def mutiply_list_map(my_list=[], number=0):
+    return (list(map(lambda a: a * number, my_list)))
