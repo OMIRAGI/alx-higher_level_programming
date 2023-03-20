@@ -1,5 +1,3 @@
-cutable File  19 lines (17 sloc)  435 Bytes
-
 #!/usr/bin/python3
 """
 script that is safe from SQL injections
